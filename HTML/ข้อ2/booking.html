@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      table,tr,td{
+        text-align: left;
+        font-size: 15px;
+        border-collapse: collapse;
+        /* border: 1px solid black; */
+      }
+      /* #adult,#child,#infant,#currency{
+        width: 100%;
+      } */
+      input{
+        width: 6em;
+      }
+    </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th colspan="2">
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi">
+          <label for="citydepart">Flying from</label>
+          <br>
+          <input list="citydepart" name="citydepart" style="width: 12em;">
+          <datalist id="citydepart">
+            <option value="New York">
+            <option value="Tokyo">
+            <option value="London">
+          </datalist>
+      </th>
+      <th colspan="2">
+          <label for="cityarrive">to</label><br>
+          <input list="cityarrive" name="cityarrive" style="width: 12em;">
+          <datalist id="cityarrive">
+            <option value="New York">
+            <option value="Tokyo">
+            <option value="London">
+          </datalist>
+  
+      </th>    
+    <tr>
+      <td colspan="2">
+        <label for="departdate">Departing</label><br>
+        <input type="date" id="departdate" name="Departday" style="width: 12em;">
+      </td>
+      <td colspan="2">
+        <label for="returndate">Returning</label><br>
+        <input type="date" id="returndate" name="Returnday" style="width: 12em;">
+      </td>
+    </tr>  
+    <tr>
+      <td class="Adult">
+        <label for="Adult">Adult</label><br>
+        <input type="number" id="Adult" name="Adult" min="1" max="5"  >
+      </td>
+      <td class="Child">
+        <label for="Child">Child</label><br>
+        <input type="number" id="Child" name="Child" min="1" max="5" >
+      </td>
+      <td class="Infant">
+        <label for="Infant">Infant</label><br>
+        <input type="number" id="Infant" name="Infant" min="1" max="5">
+      </td>
+      <td class="currency">
+        <label for="Currency">Currency</label><br>
+        <input list="Currency" name="Currency" width="90%">
+        <datalist id="Currency">
+        <option value="THB">
+        <option value="USD">
+        <option value="EUR">
+      </datalist>
+      </td>
+    </tr>
+    <tr>
+       <td>
+        <input type="submit" value="Search" style="background-color: orange; width: 6em;">
+       </td>
+    </tr> 
+    </form>
+  </table>
+</body>
+</html>

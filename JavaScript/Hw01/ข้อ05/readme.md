@@ -1,0 +1,1 @@
+แปลง function ข้างล่างให้อยู่ในรูป arrow function
