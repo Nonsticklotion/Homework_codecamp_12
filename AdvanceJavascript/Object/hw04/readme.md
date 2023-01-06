@@ -1,3 +1,5 @@
+### CodeCamp#12
+1.Pisit Rungkaseampong
 "Exercise Object
 1.ให้ทำตามคำสั่งต่อไปนี้
 - สร้าง Object เปล่าขึ้นมา

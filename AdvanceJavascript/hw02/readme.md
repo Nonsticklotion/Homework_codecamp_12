@@ -1,3 +1,5 @@
+### CodeCamp#12
+1.Pisit Rungkaseampong
 "Exercise การสร้าง Object
 1.ให้สร้าง Object แบบ Object Iteral โดยให้กำหนดตัวแปรชื่อ human โดยมี Properties ทั้ง 5 อย่าง
 - ชื่อของผู้เรียน เป็น String

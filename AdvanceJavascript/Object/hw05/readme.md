@@ -1,3 +1,5 @@
+### CodeCamp#12
+1.Pisit Rungkaseampong
 "Exercise Methods ของ Object
 1.การทำงานของ code ดังกล่าวจะได้อะไรออกมา
 

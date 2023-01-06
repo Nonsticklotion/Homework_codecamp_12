@@ -1,3 +1,5 @@
+### CodeCamp#12
+1.Pisit Rungkaseampong
 "Exercise Constructor กับ New
 1.สร้าง constructor function ที่ใช้สำหรับสร้าง Calculator โดยต้องมี 3 Methods นี้
 - read(): รับค่าจาก propmt สองตัว

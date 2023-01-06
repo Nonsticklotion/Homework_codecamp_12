@@ -1,3 +1,5 @@
+### CodeCamp#12
+1.Pisit Rungkaseampong
 ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.map()
 
 1.1 array1 = [1, 2, 30, 400]

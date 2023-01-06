@@ -1,3 +1,5 @@
+### CodeCamp#12
+1.Pisit Rungkaseampong
 "Exercise Array
 1.ผลลัพธ์ของความยาว array คืออะไร
 Ans : 4
