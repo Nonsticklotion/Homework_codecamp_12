@@ -1,30 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>css hw3</title>
-    <style>
-        *{
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
-     <div class="wrapper">
-         <div class="header">Header</div>
-         <div class="main">
-            <div class="left">
-                <div class="leftlogo"></div>
-               <img class="facebook_logo"src="./pic/facebooklogo.svg" alt="facebooklogo">
-               <h2>Facebook helps you connect and share with the people in your life.</h2>
+    <link rel="stylesheet" href="hw3.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <div class="insideMain">
+          <div class="left">
+            <div class="leftlogo">
+              <img
+                style="width: 301.06; height: 106px; margin: -28px"
+                class="facebook_logo"
+                src="./pic/facebooklogo.svg"
+                alt="facebooklogo"
+              />
             </div>
-            <div class="right">a</div>
-         </div>
-         <div class="footer">b</div>
-     </div>
-</body>
+            <h2 class="bottomFace">
+              Facebook helps you connect and share with the people in your life.
+            </h2>
+          </div>
+          <div class="right">
+            <div class="cardRegister">
+              <div class="email">
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Email address or phone number"
+                />
+              </div>
+              <div class="password">
+                <input
+                  type="text"
+                  id="password"
+                  name="password"
+                  placeholder="Password"
+                />
+              </div>
+              <button class="loginButton">Log in</button>
+              <div class="forgetPassword">
+                <p>Forgetten password?</p>
+              </div>
+              <hr />
+              <button class="createAccountButton">Create New Account</button>
+            </div>
+            <div class="bottomCardtext">
+              <span style="font-weight: 600">Create a Page</span>
+              for a celebrity, brand or business.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="afterFooter">
+          <div class="language">
+            <a href="url" style="padding-left: 0px">English (UK)</a>
+            <a href="url">ภาษาไทย</a>
+            <a href="url">日本語</a>
+            <a href="url">中文(简体)</a>
+            <a href="url">Tiếng Việt</a>
+            <a href="url">Français (France)</a>
+            <a href="url">Deutsch</a>
+            <a href="url">Русский</a>
+            <a href="url">Español</a>
+            <a href="url">Português (Brasil)</a>
+            <a href="url">Italiano</a>
+            <button
+              style="
+                font-weight: bold;
+                padding: 0 8px 0 10px;
+                cursor: pointer;
+                margin: 0 0 0 10px;
+              "
+            >
+              +
+            </button>
+          </div>
+          <hr
+            style="
+              color: gray;
+              border-style: inset;
+              border-width: 1px;
+              margin: 0.5em auto;
+            "
+          />
+          <div class="bottomLanguage">
+            <a href="url" style="padding-left: 0px">Sign Up</a>
+            <a href="url">Log in</a>
+            <a href="url">Messenger</a>
+            <a href="url">Facebook Lite</a>
+            <a href="url">Watch</a>
+            <a href="url">Places</a>
+            <a href="url">Games</a>
+            <a href="url">Marketplace</a>
+            <a href="url">Meta Pay</a>
+            <a href="url">Oculus</a>
+            <a href="url">Portal</a>
+            <a href="url">Instagram</a>
+            <a href="url">Bulletin</a>
+            <a href="url">Fundraisers</a>
+            <a href="url" style="padding-left: 0px">Services</a>
+            <a href="url">Voting Information Centre</a>
+            <a href="url">Privacy Policy</a>
+            <a href="url">Privacy Centre</a>
+            <a href="url">Groups</a>
+            <a href="url">About</a>
+            <a href="url">Create ad</a>
+            <a href="url">Create Page</a>
+            <a href="url">Developers</a>
+            <a href="url">Careers</a>
+            <a href="url">Cookies</a>
+            <a href="url">AdChoices</a>
+            <a href="url" style="padding-left: 0px">Terms</a>
+            <a href="url">Help</a>
+            <a href="url">Contact uploading and non-users</a>
+            <br /><br />
+            <span style="padding-left: 0px; color: #737373; font-size: 12px">
+              Meta © 2023
+            </span>
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
